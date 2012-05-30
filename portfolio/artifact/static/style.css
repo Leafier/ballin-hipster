@@ -1,0 +1,108 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Maven Pro', Verdana, Arial, sans-serif;
+	text-shadow: 1px 1px 1px #FEFEFE;
+	color: #222;
+	background: #EEE url(img/bg.png);
+	text-align: center;
+}
+
+.splash {
+
+	position: absolute;
+	background-image: url(img/stripe.png);
+	background-color: #3385ff;
+	z-index: -1;
+	margin-top: -28px;
+	width: 100%;
+	height: 400px;
+}
+
+
+.wrapper{
+	font-family: 'Maven Pro', Verdana, Arial, sans-serif;
+	margin: 0 auto;
+	width: 1000px;
+	
+}
+
+.header {
+	text-align: left;
+	font-family: 'Maven Pro', sans-serif;
+	margin-bottom: 15px;
+	padding-top: 30px;
+	margin-bottom: 25px;
+	margin: 10px 0px 5px 0px;
+}
+
+.logo {
+	font-size: 36px;
+	font-family: 'Maven Pro', sans-serif;
+	width: 425px;
+
+	display: inline;
+}
+.nav{
+	margin: 28px auto;
+	width: 100%;
+	background-color: #ffad33;
+	background-image: url(img/stripe.png);
+	padding: 10px 0px 10px 0px;
+	text-align: left;
+}
+.nav a:link,a:hover,a:visited{
+	padding: 10px 20px 10px 20px;
+	background-color: #ffad33;
+	background-image: url(img/stripe.png);
+	color: #EEE;
+	text-shadow: none;
+	text-decoration: none;
+	font-weight: 300;
+}
+.nav a:hover{
+	background-color: #ffcc80;
+	background-image: url(img/stripe.png);
+	color: #EEE;
+	text-shadow: 0px 1px 1px #111;
+}
+
+.line {
+	postion: relative;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 68px;
+	margin-top: 68px;
+	margin-bottom: 12px;
+	font-weight: bold;
+	text-shadow: 0px 1px 1px #444;
+	color: #EEE;
+}
+.subline{
+	position: relative;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 38px;
+	margin-bottom: 68px;
+	text-shadow: 0px 1px 1px #444;
+	color: #EEE;
+}
+.content{
+	font-family: 'Maven Pro', Verdana, Arial, sans-serif;
+	text-align: left;
+	margin: 0 auto;
+	width: 1000px;
+	border-top: #CCC 4px solid;
+	border-right: #DDD 4px solid;
+	border-left: #DDD 4px solid;
+	background-color: #fff;
+	min-height: 500px;
+	padding-top: 15px;
+	margin-bottom: -25px;
+}
+.content p{
+	padding-left: 15px;
+}
+.content h1 {
+	padding: 0px 0px 10px 50px;
+	border-bottom: 1px #DDD solid;
+	color: #999;
+}
