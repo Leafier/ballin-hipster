@@ -15,5 +15,6 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     url(r'^$', 'artifact.views.front', name='front'),
+    url(r'^(?P<catid>\d+)/$', 'artifact.views.cat', name='cat'),
     url(r'^admin/', include(admin.site.urls)),
 )
